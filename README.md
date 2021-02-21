@@ -320,6 +320,7 @@ audio和video参数表示该播放器对哪种媒体适用，适用就用"true"�
 
 - 修改Kodi的主题皮肤
 - 常用快捷键
+- [在 Kodi 里安装 Plex 插件](#3224-%E5%9C%A8-kodi-%E9%87%8C%E5%AE%89%E8%A3%85-plex-%E6%8F%92%E4%BB%B6 "在 Kodi 里安装 Plex 插件")
 - 将手机设置成Kodi的遥控器
 - 将Kodi设置DLNA，其他智能设备的媒体可以推送过来播放
 - 设置IPTV源，看电视直播
@@ -444,6 +445,18 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 ##### 3.2.2.4 在 Kodi 里安装 Plex 插件
 
 前面已经讲过安装 Kodi ，而在 Kodi 里有 Plex 的插件，可以直接在 Kodi 里播放 Plex 的内容。
+
+为什么推荐在Kodi里安装Plex插件？
+
+因为Plex播放视频需解码或者转码，占用Plex服务器端资源；
+
+一些不支持的视频编码，使用Plex客户端无法解码播放；
+
+Plex客户端收费……
+
+在Kodi里安装Plex插件能解决以上问题，功能界面与Plex客户端没差别。
+
+Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇文章")有介绍，这里不再赘述。
 
 >**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器](https://post.smzdm.com/p/ar0v98m7/ "使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
 
