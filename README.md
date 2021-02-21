@@ -344,7 +344,7 @@ audio和video参数表示该播放器对哪种媒体适用，适用就用"true"�
 
 Plex 分为服务端和应用端，应用端无非就是在设备上的播放器而以，也有很多应用可以代替，下面主讲服务端。
 
-点击[Plex 下载页](https://www.plex.tv/zh/media-server-downloads/ "Plex下载页")选择对应平台的Plex安装包下载。
+点击 [Plex下载页](https://www.plex.tv/zh/media-server-downloads/ "Plex下载页") 选择对应平台的Plex安装包下载。
 
 ![Plex下载](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Plex.Download.png#pic_center)
 
