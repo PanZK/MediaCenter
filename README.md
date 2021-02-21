@@ -396,9 +396,13 @@ Plex 提供web管理界面，默认32400端口。
 
 ##### 3.2.2.3 Plex 进阶配置
 
-加载本地nfo
+Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，所以需要让 Plex 从本地加载 nfo 视频信息文件。
 
->**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
+这里提供两个插件[XBMCnfoMoviesImporter.bundle-for-Plex](https://github.com/gboudreau/XBMCnfoMoviesImporter.bundle "XBMCnfoMoviesImporter.bundle-for-Plex") 和 [XBMCnfoTVImporter.bundle-for-Plex](https://github.com/gboudreau/XBMCnfoTVImporter.bundle "XBMCnfoTVImporter.bundle-for-Plex") 。
+
+这里也有网友整理好的：[BD云链接](https://pan.baidu.com/s/1GT9yC18LCOxUBlmI3IpkfA "BD云链接")提取码：x9xy。
+
+>**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器](https://post.smzdm.com/p/ar0v98m7/ "使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
 
 ### 3.3 安装&配置刮削器 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
