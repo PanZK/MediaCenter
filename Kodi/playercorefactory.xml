@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playercorefactory>
+    <players>
+        <player name="MPV" type="ExternalPlayer" audio="false" video="true">
+        <filename>/usr/bin/mpv</filename>
+        <args> --player-operation-mode=pseudo-gui -- %U</args>
+        <hidexbmc>false</hidexbmc>
+        <hideconsole>false</hideconsole>
+        <hidecursor>false</hidecursor>
+        <playonestackitem>true</playonestackitem>
+        <playcountminimumtime>600</playcountminimumtime>
+        </player>
+    </players>
+    <rules action="prepend">
+        <rule video="true" player="MPV">
+        </rule>
+    </rules>
+</playercorefactory>
