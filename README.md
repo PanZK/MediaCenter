@@ -414,10 +414,10 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
     /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Plug-ins
     #Linux路径
 
-    *\\Plex\\Library\\Application SupportPlex\\Media Server\\Plug-ins
+    *\Plex\Library\Application SupportPlex\Media Server\Plug-ins
     #Windows路径
 
-    appdata -> plex -> Library -> Application SupportPlex -> Media -> ServerPlug-ins
+    appdata/plex/Library/Application SupportPlex/Media/ServerPlug-ins
     #UNraid路径
 ```
 
