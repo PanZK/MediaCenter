@@ -436,7 +436,7 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 值得注意的地方，在这个代理插件设置最下面的地方，把这个勾勾去掉。大意是生成很多标签分组，会很乱，必须去掉这个勾勾：
 
-![Plex本地信息插件图3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Plex.Importer3.png)
+![Plex本地信息插件图3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Plex.Importer3.png#pic_center)
 
 刷新所有元数据，Plex就能加载到本地的 nfo 文件和封面图了。
 
@@ -457,6 +457,10 @@ Plex客户端收费……
 在Kodi里安装Plex插件能解决以上问题，功能界面与Plex客户端没差别。
 
 Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇文章")有介绍，这里不再赘述。
+
+##### 3.2.2.4待补充更多 Plex 配置
+
+Plex 更多设置后续补充
 
 >**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器](https://post.smzdm.com/p/ar0v98m7/ "使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
 
