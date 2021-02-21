@@ -436,7 +436,7 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 值得注意的地方，在这个代理插件设置最下面的地方，把这个勾勾去掉。大意是生成很多标签分组，会很乱，必须去掉这个勾勾：
 
-![Plex本地信息插件图3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Plex.Importer3.png#pic_center)
+![Plex本地信息插件图3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Plex.Importer3.png)
 
 刷新所有元数据，Plex就能加载到本地的 nfo 文件和封面图了。
 
