@@ -5,7 +5,7 @@
 
 为防止各种问题需要重建，并提供交流用，遂记录之，以供参考。
 
-本套媒体中心采用 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 构成。
+本套媒体中心采用 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 构成。
 
 ## 1. 系统介绍
 
@@ -34,35 +34,35 @@ MediaElch(媒体管理软件)是一款免费的开源电影、电视剧、音乐
 
 ### 2.1 为什么需要两个刮削器
 
-#### 2.1.1 原因1 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都有自带刮削器，为什么还要用别的？
+#### 2.1.1 原因1 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都有自带刮削器，为什么还要用别的？
 
-本身 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都是具有扫描媒体信息的功能，但是因为网络原因，这两款软件在刮削的时候异常慢，还总超时或无法链接,无法刮削，导致媒体信息不全。
+本身 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都是具有扫描媒体信息的功能，但是因为网络原因，这两款软件在刮削的时候异常慢，还总超时或无法链接,无法刮削，导致媒体信息不全。
 
 故若想达到一个完美的电影墙等展示效果，则需要能够自动搜索+手动编辑的刮削器。
 
-#### 2.1.2 原因2 为什么需要 [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 和 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 两个刮削器？
+#### 2.1.2 原因2 为什么需要 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 和 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 两个刮削器？
 
-刚开始找到的 [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 刮削器在下载使用后，瞬间感觉它是一个非常棒的刮削器。
+刚开始找到的 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 刮削器在下载使用后，瞬间感觉它是一个非常棒的刮削器。
 
 它能够在各大平台(如媒体信息数据库网站 [TMDB](https://www.themoviedb.org/ "TMDB官网") 、 [IMDb](https://www.imdb.com/ "IMDb官网") )检索文件信息，检索信息全面、编辑信息方便，更重要的是它能够根据你设置的文件夹、文件名格式，将大量媒体文件及其各种附属信息文件重命名并整理好。
 
 >**顺便提一句**</br>国内的媒体信息数据库网站,射手网几年前就停了，[豆瓣](https://www.douban.com/ "豆瓣官网")又把api接口封了，[人人影视](http://www.rrys.tv/ "人人影视 纪念...")又被封停，所以国内基本没有能用的网站了。</br>而国外网站中对中文支持最好的就是[TMDB](https://www.themoviedb.org/ "TMDB官网")了，所以后面在刮削器的设置上，以上国内网站都可以不用考虑。直接设置为[TMDB](https://www.themoviedb.org/ "TMDB官网")就好。</br>同时发现国内有[射手网(伪)](https://assrt.net/ "射手网(伪)搜索站")，不知道有没插件可以支持。
 
-**但是**， [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 读取视频源文件的编码信息能力太弱，一些文件的音视频编码无法获取；同时该软件在4.0.0版本以后的免费版，在管理媒体数量、刮削总次数分别设置上限，**完整版需要购买许可证才能解锁(按年收费)**。
+**但是**， [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 读取视频源文件的编码信息能力太弱，一些文件的音视频编码无法获取；同时该软件在4.0.0版本以后的免费版，在管理媒体数量、刮削总次数分别设置上限，**完整版需要购买许可证才能解锁(按年收费)**。
 
->不过查资料看 [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 的3.0.0大版本是没有这个限制的，但奈何没找到安装包，遂放弃。
+>不过查资料看 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 的3.0.0大版本是没有这个限制的，但奈何没找到安装包，遂放弃。
 
-所以在 <https://www.52pojie.cn/thread-671625-1-1.html> 帖子中找到开源的 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 刮削器解决管理次数和刮削次数限制问题。
+所以在 <https://www.52pojie.cn/thread-671625-1-1.html> 帖子中找到开源的 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 刮削器解决管理次数和刮削次数限制问题。
 
-**但是**，在使用 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 后发现其没有批量重命名整理功能。
+**但是**，在使用 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 后发现其没有批量重命名整理功能。
 
-批量重命名整理功能有时很重要，因为文件夹或文件命名有问题的话，可能导致 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 无法获取。
+批量重命名整理功能有时很重要，因为文件夹或文件命名有问题的话，可能导致 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 无法获取。
 
-**遂**，只能将 [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 和 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 两款软件共同保留使用了。
+**遂**，只能将 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 和 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 两款软件共同保留使用了。
 
-### 2.2 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 的区别
+### 2.2 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 的区别
 
-#### 2.2.1 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 的优缺点
+#### 2.2.1 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 的优缺点
 
 ##### 2.2.1.1 Plex 优点
 
@@ -81,7 +81,7 @@ MediaElch(媒体管理软件)是一款免费的开源电影、电视剧、音乐
 - 不支持蓝光原盘和ISO
 - 配置简单，个性化空间小
 
-#### 2.2.2 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 的优缺点
+#### 2.2.2 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 的优缺点
 
 ##### 2.2.2.1 Kodi 优点
 
@@ -116,21 +116,21 @@ Plex 需要比较强劲点的服务器，配置简单
 
 |                             需求                             | Kodi | Plex | TMM | MediaElch |              总结             |
 |--------------------------------------------------------------|:----:|:----:|:---:|:---------:|-------------------------------|
-| 媒体在本地，只在本机或客厅电视播放，不需要系统媒体管理     |   √  |      |     |           | [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")（Kodi自带刮削器）        |
-| 媒体在本地，只在本机或客厅电视播放，系统管理媒体文件 |   √  |      |  √  |     √     | [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")        |
-| 不想要复杂设置，多设备使用                                   |      |   √  |  √  |           | [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")                    |
-| 系统性管理媒体文件，播放随意                                 |      |   √  |  √  |     √     | [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")        |
-| 远程访问，系统性管理媒体文件，良好播放体验                   |   √  |   √  |  √  |     √     | [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") |
+| 媒体在本地，只在本机或客厅电视播放，不需要系统媒体管理     |   √  |      |     |           | [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")（Kodi自带刮削器）        |
+| 媒体在本地，只在本机或客厅电视播放，系统管理媒体文件 |   √  |      |  √  |     √     | [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")        |
+| 不想要复杂设置，多设备使用                                   |      |   √  |  √  |           | [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")                    |
+| 系统性管理媒体文件，播放随意                                 |      |   √  |  √  |     √     | [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")        |
+| 远程访问，系统性管理媒体文件，良好播放体验                   |   √  |   √  |  √  |     √     | [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") |
 
->**有些情况只能使用 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")**</br>若多设备使用，挨个配置 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 会很麻烦</br>若需要外网远程访问则也只能使用 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")。
+>**有些情况只能使用 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")**</br>若多设备使用，挨个配置 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 会很麻烦</br>若需要外网远程访问则也只能使用 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")。
 
 ## 3. 安装&配置
 
 到了重头戏，安装这些软件踩了无数坑，总结如下。
 
-### 3.1 安装&配置播放器 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
+### 3.1 安装&配置播放器 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
 
-#### 3.1.1 安装 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
+#### 3.1.1 安装 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
 
 这是[Kodi官网](https://kodi.tv/ "Kodi官网")，这是[Kodi的github页面](https://github.com/xbmc/xbmc "Kodi的github页面")。
 
@@ -148,7 +148,7 @@ Plex 需要比较强劲点的服务器，配置简单
     sudo apt-get install kodi
 ```
 
-#### 3.1.2 配置 [Kodi](README.md#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
+#### 3.1.2 配置 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明")
 
 下面转载并整理下[豆瓣博主-没纹身的男孩-一个私人影视库的解决方案——KODI（上）](https://www.douban.com/note/709691715/ "豆瓣-没纹身的男孩-一个私人影视库的解决方案——KODI（上）")的详细说明。
 
@@ -328,9 +328,9 @@ audio和video参数表示该播放器对哪种媒体适用，适用就用"true"�
 
 >**相关参考链接**</br>- [我是怎样用这个神器管理我的4T电影的-马小帅的文章-知乎](https://zhuanlan.zhihu.com/p/84017222 "我是怎样用这个神器管理我的4T电影的 - 马小帅的文章 - 知乎")</br>- [Kodi 以更优雅的方式来管理你的电影](https://www.jianshu.com/p/4e74063fed8a "Kodi 以更优雅的方式来管理你的电影")</br>- [手把手教你用Kodi，搭建最强私人「娱乐/学习」中心！（小白篇）](https://post.m.smzdm.com/p/ammqnld4/ "手把手教你用Kodi，搭建最强私人「娱乐/学习」中心！（小白篇）")</br>- [2021年最新直播源](http://www.kodiplayer.cn/movie/2898.html "Kodi IPTV直播源m3u8下载 2021年最新直播源")</br>- [利用树莓派和Kodi投屏](https://blog.csdn.net/biocity/article/details/85597058 "CSDN-利用树莓派和Kodi投屏")</br>- [HOW TO - Launch MPC-HC/MPC-BE with madVR as an External Player](https://forum.kodi.tv/showthread.php?tid=209596 "HOW TO - Launch MPC-HC/MPC-BE with madVR as an External Player")
 
-### 3.2 安装&配置媒体管理系统 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
+### 3.2 安装&配置媒体管理系统 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
 
-#### 3.2.1 安装 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
+#### 3.2.1 安装 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
 
 这是 [Plex官网](https://www.plex.tv/ "Plex官网")，这是 [Plex中文官网](https://www.plex.tv/zh/ "Plex中文官网")
 
@@ -355,7 +355,7 @@ Plex 分为服务端和应用端，应用端无非就是在设备上的播放器
     #安装包命名规则为plexmediaserver_<版本号>-<版本号>_<架构>.deb
 ```
 
-#### 3.2.2 配置 [Plex](README.md#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
+#### 3.2.2 配置 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明")
 
 ##### 3.2.2.1 Plex 服务端基本命令
 
@@ -400,21 +400,21 @@ Plex 提供web管理界面，默认32400端口。
 
 >**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
 
-### 3.3 安装&配置刮削器 [tinyMediaManager(TMM)](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
+### 3.3 安装&配置刮削器 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-#### 3.3.1 安装 [tinyMediaManager(TMM)](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
+#### 3.3.1 安装 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
 [tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")
 
-#### 3.3.2 配置 [tinyMediaManager(TMM)](README.md#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
+#### 3.3.2 配置 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-### 3.4 安装&配置刮削器 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
+### 3.4 安装&配置刮削器 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
-#### 3.4.1 安装 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
+#### 3.4.1 安装 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
 [MediaElch官网](https://www.kvibes.de/mediaelch/ "MediaElch官网")
 
-#### 3.4.2 配置 [MediaElch](README.md#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
+#### 3.4.2 配置 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
 ```python
 aaa
