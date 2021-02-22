@@ -186,13 +186,13 @@ Plex 需要比较强劲点的服务器，配置简单
 
 #### 3.1.1 安装 [Kodi](#11-播放器-kodi "Kodi说明")
 
-这是[Kodi官网](https://kodi.tv/ "Kodi官网")，这是[Kodi的github页面](https://github.com/xbmc/xbmc "Kodi的github页面")。
+这是 [Kodi官网](https://kodi.tv/ "Kodi官网")，这是 [Kodi的github页面](https://github.com/xbmc/xbmc "Kodi的github页面") 。
 
-进入官网的[下载页面](https://kodi.tv/download "官网下载页面")在下面找到自己的平台下载链接，下载安装包。如图：
+进入官网的 [下载页面](https://kodi.tv/download "官网下载页面") 在下面找到自己的平台下载链接，下载安装包。如图：
 
 ![Kodi下载图](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-Kodi.Download.png#pic_center "Kodi下载图")
 
-除Linux平台外，其他几个平台下载后直接安装即可，Linux需要用[官网文档](https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux "官网文档")提示的内容通过命令安装。
+除Linux平台外，其他几个平台下载后直接安装即可，Linux需要用 [官网文档](https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux "官网文档") 提示的内容通过命令安装。
 如Ubuntu的安装命令如下：
 
 ```shell
@@ -204,7 +204,7 @@ Plex 需要比较强劲点的服务器，配置简单
 
 #### 3.1.2 配置 [Kodi](#11-播放器-kodi "Kodi说明")
 
-下面转载并整理下[豆瓣博主-没纹身的男孩-一个私人影视库的解决方案——KODI（上）](https://www.douban.com/note/709691715/ "豆瓣-没纹身的男孩-一个私人影视库的解决方案——KODI（上）")的详细说明。
+下面转载并整理下 [豆瓣博主-没纹身的男孩-一个私人影视库的解决方案——KODI（上）](https://www.douban.com/note/709691715/ "豆瓣-没纹身的男孩-一个私人影视库的解决方案——KODI（上）") 的详细说明。
 
 ##### 3.1.2.1 Kodi中文设置
 
@@ -334,7 +334,7 @@ kodi设置外置播放器很容易，只要在 [Kodi 用户数据配置路径](h
 | OSMC        | /home/osmc/.kodi/userdata/                                                         |
 | Windows UWP | %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\ |
 
-[点击下载](https://raw.githubusercontent.com/PanZK/Record_InstallSoftware/main/MediaCenter/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml")我配置的playercorefactory.xml。
+[点击下载](https://raw.githubusercontent.com/PanZK/Record_InstallSoftware/main/MediaCenter/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml") 我配置好的playercorefactory.xml。
 
 简单解释下xml中的参数：
 
@@ -463,7 +463,7 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 这里也有网友整理好的：[BD云链接](https://pan.baidu.com/s/1GT9yC18LCOxUBlmI3IpkfA "BD云链接") 和提取码：x9xy，可以直接下载。
 
-下载后分别解压出两个文件夹，解压出的文件夹名带有 `\*\* -master` 字样，故分别将其重命名为 `XBMCnfoMoviesImporter.bundle` 和 `XBMCnfoTVImporter.bundle` 。
+下载后分别解压出两个文件夹，解压出的文件夹名带有 `** -master` 字样，故分别将其重命名为 `XBMCnfoMoviesImporter.bundle` 和 `XBMCnfoTVImporter.bundle` 。
 
 >可以分别进入这两个目录，查看里面是分别否存在 `Contents` 目录，若存在则文件结构正确。
 
@@ -511,17 +511,17 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 前面已经讲过安装 Kodi ，而在 Kodi 里有 Plex 的插件，可以直接在 Kodi 里播放 Plex 的内容。
 
-为什么推荐在Kodi里安装Plex插件？
+为什么推荐在 Kodi 里安装 Plex 插件？
 
-因为Plex播放视频需解码或者转码，占用Plex服务器端资源；
+因为 Plex 播放视频需解码或者转码，占用 Plex 服务器端资源；
 
-一些不支持的视频编码，使用Plex客户端无法解码播放；
+一些不支持的视频编码，使用 Plex 客户端无法解码播放；
 
-Plex客户端收费……
+Plex 客户端收费……
 
-在Kodi里安装Plex插件能解决以上问题，功能界面与Plex客户端没差别。
+在 Kodi 里安装 Plex 插件能解决以上问题，功能界面与Plex客户端没差别。
 
-Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇文章")有介绍，这里不再赘述。
+Kodi 中文网 [这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇文章") 有介绍，这里不再赘述。
 
 ##### 3.2.2.5 待补充更多 Plex 配置
 
@@ -533,7 +533,7 @@ Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇�
 
 #### 3.3.1 安装 [tinyMediaManager(TMM)](#13-刮削器-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-问题2-用一个刮削器-用一个刮削器不够吗 "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
+这是 [tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网") ，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-问题2-用一个刮削器-用一个刮削器不够吗 "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
 
 tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装。但是在Linux上运行除了需要Java，还需要libmediainfo依赖库，这是 [tinyMediaManager官方安装说明文档](https://www.tinymediamanager.org/docs/installation "tinyMediaManager官方安装说明文档")。
 
@@ -544,9 +544,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 >听闻tinyMediaManager除了支持GUI界面操作，也支持命令行操作，有待研究。
 
-这是[tinyMediaManager4.x下载链接](https://www.tinymediamanager.org/download/ "tinyMediaManager4.x下载链接]")，这是[tinyMediaManager3.x下载链接](https://www.tinymediamanager.org/download/release-v3/ "tinyMediaManager3.x下载链接")
-
-按需要选择平台下载,下载界面如图：
+这是 [tinyMediaManager4.x下载链接](https://www.tinymediamanager.org/download/ "tinyMediaManager4.x下载链接]") ，这是 [tinyMediaManager3.x下载链接](https://www.tinymediamanager.org/download/release-v3/ "tinyMediaManager3.x下载链接") ，按需要选择平台下载,下载界面如图：
 
 ![TMM下载图](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Download.png#pic_center)
 
@@ -597,29 +595,29 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 ##### 3.3.2.3 添加媒体库
 
-首先点开主界面的设置选项，在弹出的窗口左侧 *电影 -> 媒体库目录* ；击右上角的+号，添加你存放在电脑本地磁盘，或者NAS上的电影文件目录；
+首先点开主界面的设置选项，在弹出的窗口左侧 `电影 -> 媒体库目录` ；击右上角的+号，添加你存放在电脑本地磁盘，或者NAS上的电影文件目录；
 
 ![TMM添加媒体库1](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib1.png#pic_center)
 
-刮削器设置 *themoviedb.org* ，刚才我们已经把[它添加进hosts](#1 "修改themoviedb.org的host")了。
+刮削器设置为 *themoviedb.org* ，刚才我们已经把它 [添加进hosts](#1 "修改themoviedb.org的host")了 。
 
 ![TMM添加媒体库2](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib2.png#pic_center)
 
-左侧找到 *电影 -> 刮削器 -> 刮削器选项* ，首选语言改为中文，勾选片名首字母大写，在元数据默认选项里，去掉一部分用不上的勾选，能提升搜刮效率，减少磁盘占用；
+左侧找到 `电影 -> 刮削器 -> 刮削器选项` ，首选语言改为中文，勾选片名首字母大写，在元数据默认选项里，去掉一部分用不上的勾选，能提升搜刮效率，减少磁盘占用；
 
 ![TMM添加媒体库3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib3.png#pic_center)
 
 >图中勾选的为我认为需要的内容。</br>对于Kodi而言，海报墙展示界面仅需要海报（post）、同人画（fanart）,剧集的话还要横幅图（banner）、季的海报（post）、集的缩略图（thumb），再加个nfo文件就足够了。</br>光碟封面、LOGO、缩图等等一些，是提供给jellyfin、emby、Plex使用
 
-左侧找到 *电影 -> 刮削器 -> nfo设置* 将 nfo 格式改为 Kodi ； *movie.nfo* 在Kodi下是不识别的，故勾选 NFO 文件名为 *<电影文件名>.nfo* ，然后将NFO语言同样改为中文；
+左侧找到 `电影 -> 刮削器 -> nfo设置` 将 nfo 格式改为 *Kodi* ； *movie.nfo* 在Kodi下是不识别的，故勾选 NFO 文件名为 *<电影文件名>.nfo* ，然后将NFO语言同样改为中文；
 
 ![TMM添加媒体库4](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib4.png#pic_center)
 
-左侧找到 *电影 -> 海报 -> 艺术图文件名* ，这里设置下载的图片命名选项，如图勾选；
+左侧找到 `电影 -> 海报 -> 艺术图文件名` ，这里设置下载的图片命名选项，如图勾选；
 
 ![TMM添加媒体库5](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib5.png#pic_center)
 
-设置好后，那么试一下效果，点击主界面左上角的「更新源」，这时tmm刮削器就会检索你的媒体库目录文件；
+设置好后，那么试一下效果，点击主界面左上角的 *更新源* ，这时tmm刮削器就会检索你的媒体库目录文件；
 
 ![TMM添加媒体库6](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib6.png#pic_center)
 
@@ -663,7 +661,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 在Linux的路径中若包含空格实在太麻烦，遂将高级选项中关于空格的两项也设置好替换。
 
-点击上方的 *”重命名&清理“* 按钮，就可以批量重命名了。
+点击上方的 *“重命名&清理”* 按钮，就可以批量重命名了。
 
 ![TMM重命名2](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Rename2.png#pic_center)
 
@@ -673,7 +671,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 现本地化后可以将 Kodi 和 Plex 的刮削器直接设置在本地，免去它们再刮削不到的苦恼。
 
-- 修改 Kodi</br>回到 [3.1.2.2 Kodi媒体库资源的扫描](3.1.2.2 Kodi媒体库资源的扫描 "#3122-kodi媒体库资源的扫描") 这里。</br>更改之前已经添加的媒体源，将信息提供者那里选择“Local information only”，选择确定，资料库会自动更新，直接读取 nfo 文件，因为不用访问网络速度会很快。
+- 修改 Kodi</br>回到 [3.1.2.2 Kodi媒体库资源的扫描](#3122-kodi媒体库资源的扫描 "3.1.2.2 Kodi媒体库资源的扫描") 这里。</br>更改之前已经添加的媒体源，将信息提供者那里选择“Local information only”，选择确定，资料库会自动更新，直接读取 nfo 文件，因为不用访问网络速度会很快。
 
 - 修改 Plex</br>回到 [3.2.2.3 Plex 加载本地 nfo 文件插件](#3223-plex-加载本地-nfo-文件插件 "3.2.2.3 Plex 加载本地 nfo 文件插件") 这里查看如何配置。
 
@@ -683,7 +681,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 把大神的Github链接挂在这里 [XanderYe/tmm-cracker: tmm(tinymediamanager)4.0.6破解](https://github.com/XanderYe/tmm-cracker "XanderYe/tmm-cracker: tmm(tinymediamanager)4.0.6破解")，有需要的可以自取。
 
-其他平台的怎么办呢，可以使用下面将要说的刮削器 [MediaElch](#14-刮削器-mediaelch "MediaElch说明")。
+其他平台的怎么办呢，可以使用下面将要说的刮削器 [MediaElch](#14-刮削器-mediaelch "MediaElch说明") 。
 
 ##### 3.3.2.7 待补充更多 TMM 配置
 
