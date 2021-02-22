@@ -334,7 +334,7 @@ kodi设置外置播放器很容易，只要在 [Kodi 用户数据配置路径](h
 | OSMC        | /home/osmc/.kodi/userdata/                                                         |
 | Windows UWP | %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\ |
 
-[点击下载](https://raw.githubusercontent.com/PanZK/Record_InstallSoftware/main/MediaCenter/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml") 我配置好的playercorefactory.xml。
+[点击下载](https://raw.githubusercontent.com/PanZK/MediaCenter/main/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml") 我配置好的playercorefactory.xml。
 
 简单解释下xml中的参数：
 
@@ -568,6 +568,8 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 上一步运行 TMM 后，程序会在安装目录自动生成 *tinyMediaManager.desktop* 快捷方式
 
 >若没有自动生成，在 [官方文档](https://www.tinymediamanager.org/docs/installation "官方安装说明文档") 有说明如何手动创建 *tinyMediaManager.desktop*
+
+[点击下载](https://raw.githubusercontent.com/PanZK/MediaCenter/main/TinyMediaManager/tinyMediaManager.desktop "我所使用的tinyMediaManager.desktop") 我配置好的tinyMediaManager.desktop。
 
 ```shell
     sudo cp tinyMediaManager.desktop /usr/bin

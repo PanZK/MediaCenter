@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=tinyMediaManager
+Path=/opt/tinymediamanager
+Exec=/bin/sh -c "/opt/tinymediamanager/tinyMediaManager"
+Icon=/opt/tinymediamanager/tmm.png
+Categories=AudioVideo;Video;Database;Java;
