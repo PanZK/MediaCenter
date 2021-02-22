@@ -409,11 +409,11 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 这里也有网友整理好的：[BD云链接](https://pan.baidu.com/s/1GT9yC18LCOxUBlmI3IpkfA "BD云链接") 和提取码：x9xy，可以直接下载。
 
-下载后分别解压出两个文件夹，解压出的文件夹名带有 *\*-master* 字样，故分别将其重命名为 *XBMCnfoMoviesImporter.bundle* 和 *XBMCnfoTVImporter.bundle* 。
+下载后分别解压出两个文件夹，解压出的文件夹名带有 `\*\* -master` 字样，故分别将其重命名为 `XBMCnfoMoviesImporter.bundle` 和 `XBMCnfoTVImporter.bundle` 。
 
->可以分别进入这两个目录，查看里面是分别否存在_Contents_目录，若存在则文件结构正确。
+>可以分别进入这两个目录，查看里面是分别否存在 `Contents` 目录，若存在则文件结构正确。
 
-然后将 *XBMCnfoMoviesImporter.bundle* 和 *XBMCnfoTVImporter.bundle* 两个目录将放到 PLEX 插件目录下
+然后将 `XBMCnfoMoviesImporter.bundle` 和 `XBMCnfoTVImporter.bundle` 两个目录将放到 PLEX 插件目录下
 
 ```shell
     /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Plug-ins
@@ -424,6 +424,13 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
     appdata/plex/Library/Application SupportPlex/Media/ServerPlug-ins
     #UNraid路径
+```
+
+放入正确目录后还需要给插件文件夹添加权限
+
+```shell
+    sudo chmod -R +rx XBMCnfoMoviesImporter.bundle/
+    sudo chmod -R +rx XBMCnfoTVImporter.bundle/
 ```
 
 重启 Plex。
@@ -472,7 +479,24 @@ Plex 更多设置后续补充
 
 #### 3.3.1 安装 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")
+这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-%E5%8E%9F%E5%9B%A02-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81-tmm-%E5%92%8C-mediaelch-%E4%B8%A4%E4%B8%AA%E5%88%AE%E5%89%8A%E5%99%A8 "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
+
+tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装。但是在Linux上运行除了需要Java，还需要libmediainfo依赖库，这是 [tinyMediaManager官方安装说明文档](https://www.tinymediamanager.org/docs/installation "tinyMediaManager官方安装说明文档")。
+
+```shell
+    sudo apt-get install libmediainfo
+    #安装libmediainfo依赖库
+```
+
+>听闻tinyMediaManager除了支持GUI界面操作，也支持命令行操作，有待研究。
+
+这是[tinyMediaManager4.x下载链接](https://www.tinymediamanager.org/download/ "tinyMediaManager4.x下载链接]")，这是[tinyMediaManager3.x下载链接](https://www.tinymediamanager.org/download/release-v3/ "tinyMediaManager3.x下载链接")
+
+按需要选择平台下载,下载界面如图：
+
+![TMM下载图](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Download.png#pic_center)
+
+下载完成后解压到本机的软件存放目录，并赋予权限。
 
 #### 3.3.2 配置 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
@@ -484,8 +508,7 @@ Plex 更多设置后续补充
 
 #### 3.4.2 配置 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
-```python
-aaa
+```shell
 ```
 
 []( "")
