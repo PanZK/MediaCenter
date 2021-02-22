@@ -334,7 +334,7 @@ kodi设置外置播放器很容易，只要在 [Kodi 用户数据配置路径](h
 | OSMC        | /home/osmc/.kodi/userdata/                                                         |
 | Windows UWP | %LOCALAPPDATA%\Packages\XBMCFoundation.Kodi_4n2hpmxwrvr6p\LocalCache\Roaming\Kodi\ |
 
-[点击下载](https://raw.githubusercontent.com/PanZK/MediaCenter/main/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml") 我配置好的playercorefactory.xml。
+或者在这 [点击下载](https://raw.githubusercontent.com/PanZK/MediaCenter/main/Kodi/playercorefactory.xml "我所使用的playercorefactory.xml") 我配置好的playercorefactory.xml。
 
 简单解释下xml中的参数：
 
