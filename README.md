@@ -498,7 +498,66 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 下载完成后解压到本机的软件存放目录，并赋予权限。
 
+进入刚才的安装目录
+
+```shell
+    ./tinyMediaManager
+    #运行tinyMediaManager
+```
+
+运行后如图
+
+![TMM封面图](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Cover.png#pic_center)
+
 #### 3.3.2 配置 [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")
+
+##### 3.3.2.1 设置 TMM 快捷方式
+
+上一步运行 TMM 后，程序会在安装目录自动生成 *tinyMediaManager.desktop* 快捷方式
+
+>若没有自动生成，在 [官方文档](https://www.tinymediamanager.org/docs/installation "官方安装说明文档") 有说明如何手动创建 *tinyMediaManager.desktop*
+
+```shell
+    sudo cp tinyMediaManager.desktop /usr/bin
+    #将tinyMediaManager快捷方式放入bin文件夹中
+```
+
+##### 3.3.2.2 修改影视信息数据库网站 [themoviedb.org](https://www.themoviedb.org/ "TMDB官网") 的本地 host
+
+电影和电视剧的刮削都需要 [themoviedb.org](https://www.themoviedb.org/ "TMDb官网") ，但经常性连不上其接口 *api.themoviedb.org*，解决办法是修改hosts文件就行，连梯子都不用。
+
+进入这个网站 [DNS Checker](https://dnschecker.org/ "DNS Checker官网") ，搜 *api.themoviedb.org* ，找到China那一项。
+
+然后将其都添加到本机host。
+
+```shell
+    /etc/hosts
+    #Linux路径
+
+    /private/etc/hosts
+    #MacOS路径
+
+    C:\WINDOWS\system32\drivers\etc\hosts
+    #Windows路径
+```
+
+##### 3.3.2.3 添加媒体库
+
+首先点开主界面的设置选项，在弹出的窗口左侧 *电影 -> 媒体库目录* ；击右上角的+号，添加你存放在电脑本地磁盘，或者NAS上的电影文件目录。
+
+刮削器设置 *themoviedb.org* ，刚才我们已经把[它添加进hosts](#1 "修改themoviedb.org的host")了。
+
+左侧找到 *电影 -> 刮削器 -> 刮削器选项* ，首选语言改为中文，勾选片名首字母大写，在元数据默认选项里，去掉一部分用不上的勾选，能提升搜刮效率，减少磁盘占用；
+
+>图中为我需要的刮削内容
+
+##### 3.3.2.x 破解 TMM 4.0.x
+
+##### 3.3.2.x 待补充更多 TMM 配置
+
+TMM 更多设置后续补充
+
+>**相关参考链接**</br>- [独家首创，tinyMediaManager自动刮削电影，在NAS上打造完美电影墙](https://post.smzdm.com/p/aekegq2k/ "独家首创，tinyMediaManager自动刮削电影，在NAS上打造完美电影墙")</br>- [抛弃Kodi难用的刮削器 tinyMediaManager(TMM)刮削电影信息更方便](http://www.kodiplayer.cn/course/2945.html "抛弃Kodi难用的刮削器 tinyMediaManager(TMM)刮削电影信息更方便")</br>- [利用tinyMediaManager刮削影片，解决家用nas软件plex电影墙的问题](https://zhuanlan.zhihu.com/p/112167546?from_voters_page=true "利用tinyMediaManager刮削影片，解决家用nas软件plex电影墙的问题")</br>- [tmm刮削器 4.0.4破解](https://www.xanderye.cn/archives/java/169/ "tmm刮削器 4.0.4破解")
 
 ### 3.4 安装&配置刮削器 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
