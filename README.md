@@ -409,11 +409,11 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 这里也有网友整理好的：[BD云链接](https://pan.baidu.com/s/1GT9yC18LCOxUBlmI3IpkfA "BD云链接") 和提取码：x9xy，可以直接下载。
 
-下载后分别解压出两个文件夹，解压出的文件夹名带有**-master*字样，故分别将其重命名为*XBMCnfoMoviesImporter.bundle*和*XBMCnfoTVImporter.bundle*。
+下载后分别解压出两个文件夹，解压出的文件夹名带有 *\*-master* 字样，故分别将其重命名为 *XBMCnfoMoviesImporter.bundle* 和 *XBMCnfoTVImporter.bundle* 。
 
 >可以分别进入这两个目录，查看里面是分别否存在_Contents_目录，若存在则文件结构正确。
 
-然后将*XBMCnfoMoviesImporter.bundle*和*XBMCnfoTVImporter.bundle*两个目录将放到 PLEX 插件目录下
+然后将 *XBMCnfoMoviesImporter.bundle* 和 *XBMCnfoTVImporter.bundle* 两个目录将放到 PLEX 插件目录下
 
 ```shell
     /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Plug-ins
