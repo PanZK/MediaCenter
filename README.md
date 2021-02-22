@@ -7,6 +7,8 @@
 
 本套媒体中心采用 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 构成。
 
+[TOC]
+
 ## 1. 系统介绍
 
 简单讲解构成本套媒体中心需要的软件有哪些，是什么。
