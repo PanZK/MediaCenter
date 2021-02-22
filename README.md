@@ -471,7 +471,7 @@ Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇�
 
 ##### 3.2.2.4 待补充更多 Plex 配置
 
-Plex 更多设置后续补充
+更多 Plex 配置后续补充..
 
 >**相关参考链接**</br>- [Plex: 为你的所有设备打造一个聚合影音中心](https://sspai.com/post/45414 "Plex: 为你的所有设备打造一个聚合影音中心")</br>- [Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法](https://www.freehao123.com/plex-plex-media-server/ "Plex完美个人影音云盘搭建教程-Plex Media Server安装与使用方法")</br>- [【应用教程】Plex使用指南（一）](http://www.360doc.com/content/19/0219/14/60482440_816092287.shtml "【应用教程】Plex使用指南（一）")</br>- [使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器](https://post.smzdm.com/p/ar0v98m7/ "使用PLEX必看：加载本地nfo文件插件，配合tmm刮削工具的最佳方法，打造个人家庭影院服务器")</br>- [如何安装家庭媒体中心 Plex Media Server](https://linux.cn/article-5932-1.html "如何安装家庭媒体中心 Plex Media Server ")</br>- [一步一步，轻松从无到有，搞定自己的NAS媒体服务器](https://koolshare.cn/thread-148522-1-1.html "一步一步，轻松从无到有，搞定自己的NAS媒体服务器")</br>- [小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX](https://www.sohu.com/a/313724718_100298843 "小白瞎折腾 篇十四：玩转群晖NAS，影音篇（二）：本地、远程我都行，影音平台中全面性选手——PLEX")</br>- [PLEX，目前最佳的IPTV直播软件，没有之一](https://koolshare.cn/thread-148522-1-1.html "PLEX，目前最佳的IPTV直播软件，没有之一")
 
@@ -569,7 +569,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 ![TMM添加媒体库6](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib6.png#pic_center)
 
-检索完毕后选中要刮削的电影，点击 *搜索&刮削* 按钮，TMM就开始刮削工作自动匹配，如果你的视频文件命名没有问题的话，就只需要静静的等候刮削完毕。
+检索完毕后选中要刮削的电影，点击 *“搜索&刮削”* 按钮，TMM就开始刮削工作自动匹配，如果你的视频文件命名没有问题的话，就只需要静静的等候刮削完毕。
 
 >有匹配不到的会弹窗提醒，艘作输入电影名称（英文中文都可以，推荐英文名）或者IMDb ID（豆瓣可查，例如：tt0061809），点搜索
 
@@ -600,16 +600,16 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 以下是图中重命名规则
 
 ```shell
-    文件夹格式为"<中文标题>.<英文标题>-<版本>.<年份>."
+    文件夹格式为 "<中文标题>.<英文标题>-<版本>.<年份>."
 
-    文件夹格式为"<中文标题>.<英文标题>-<版本>.<年份>.<视频编码>.<音频编码>.<扩展名>"
+    文件夹格式为 "<中文标题>.<英文标题>-<版本>.<年份>.<视频编码>.<音频编码>.<扩展名>"
 ```
 
 特别篇的命名规则是，将季文件夹叫S00或者Specials，启用自动命名的话就用Specials。
 
 在Linux的路径中若包含空格实在太麻烦，遂将高级选项中关于空格的两项也设置好替换。
 
-点击上方的 *重命名&清理* 按钮，就可以批量重命名了。
+点击上方的 *”重命名&清理“* 按钮，就可以批量重命名了。
 
 ![TMM重命名2](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Rename2.png#pic_center)
 
@@ -633,11 +633,15 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 ##### 3.3.2.x 待补充更多 TMM 配置
 
-TMM 更多设置后续补充
+更多 TMM 配置后续补充...
 
 >**相关参考链接**</br>- [独家首创，tinyMediaManager自动刮削电影，在NAS上打造完美电影墙](https://post.smzdm.com/p/aekegq2k/ "独家首创，tinyMediaManager自动刮削电影，在NAS上打造完美电影墙")</br>- [抛弃Kodi难用的刮削器 tinyMediaManager(TMM)刮削电影信息更方便](http://www.kodiplayer.cn/course/2945.html "抛弃Kodi难用的刮削器 tinyMediaManager(TMM)刮削电影信息更方便")</br>- [利用tinyMediaManager刮削影片，解决家用nas软件plex电影墙的问题](https://zhuanlan.zhihu.com/p/112167546?from_voters_page=true "利用tinyMediaManager刮削影片，解决家用nas软件plex电影墙的问题")</br>- [tmm刮削器 4.0.4破解](https://www.xanderye.cn/archives/java/169/ "tmm刮削器 4.0.4破解")
 
 ### 3.4 安装&配置刮削器 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
+
+前面已经简单介绍过 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 了，这里再重复一下  [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 的特点就是开源、免费、速度快，但无法给媒体重命名。
+
+下面讲解安装和配置。
 
 #### 3.4.1 安装 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
