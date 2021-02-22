@@ -728,3 +728,5 @@ Linux系统可以直接用 [官方文档](https://mediaelch.github.io/mediaelch-
 通过以上一系列复杂操作，完成了用 [Kodi](#11-播放器-kodi "Kodi说明") + [Plex](#12-媒体管理系统-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-刮削器-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-刮削器-mediaelch "MediaElch说明") 组成家庭媒体系统。
 
 有些地方稍显复杂，有些地方还不尽人意，待后续有时间继续改进。
+
+>发现了一位老哥的骚操作， [利用AV Data Capture+Jellyfin+Kodi打造更优雅的本地AV（毛片）+普通影片媒体库](https://pockies.github.io/2020/01/09/av-data-capture-jellyfin-kodi/ "利用AV Data Capture+Jellyfin+Kodi打造更优雅的本地AV（毛片）+普通影片媒体库") 点击进行学习。
