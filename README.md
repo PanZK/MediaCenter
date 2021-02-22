@@ -5,7 +5,7 @@
 
 为防止各种问题需要重建，并提供交流用，遂记录之，以供参考。
 
-本套媒体中心采用 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 构成。
+本套媒体中心采用 [Kodi](#11-播放器-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 构成。
 
 # 目录
 
@@ -86,15 +86,15 @@ MediaElch(媒体管理软件)是一款免费的开源电影、电视剧、音乐
 
 ## 2 软件选用说明
 
-### 2.1 为什么需要两个刮削器
+### 2.1 关于两个刮削器
 
-#### 2.1.1 原因1 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都有自带刮削器，为什么还要用别的？
+#### 2.1.1 问题1 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都有自带刮削器，为什么还要用别的？
 
 本身 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") 和 [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") 都是具有扫描媒体信息的功能，但是因为网络原因，这两款软件在刮削的时候异常慢，还总超时或无法链接,无法刮削，导致媒体信息不全。
 
 故若想达到一个完美的电影墙等展示效果，则需要能够自动搜索+手动编辑的刮削器。
 
-#### 2.1.2 原因2 为什么需要 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 和 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 两个刮削器？
+#### 2.1.2 问题2 用一个刮削器，不够吗？
 
 刚开始找到的 [TMM](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明") 刮削器在下载使用后，瞬间感觉它是一个非常棒的刮削器。
 
