@@ -699,7 +699,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 这是 [MediaElch官网](https://www.kvibes.de/mediaelch/ "MediaElch官网") ， [MediaElch Github主页](https://github.com/Komet/MediaElch "MediaElch Github主页") ，点击 [Mediaelch下载](https://mediaelch.github.io/mediaelch-doc/download.html "Mediaelch下载") 进入Mediaelch的下载讲解页面。
 
-Linux系统可以直接用 [页面](https://mediaelch.github.io/mediaelch-doc/download.html#ubuntu "Mediaelch-Ubuntu安装") 中的命令安装。
+Linux系统可以直接用 [官方文档](https://mediaelch.github.io/mediaelch-doc/download.html#ubuntu "Mediaelch-Ubuntu安装") 中的命令安装。
 
 ```shell
     # Add the repository to your system
