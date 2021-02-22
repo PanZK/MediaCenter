@@ -16,8 +16,8 @@
   - [1.4 刮削器 MediaElch](#14-刮削器-mediaelch)
 - [2 软件选用说明](#2-软件选用说明)
   - [2.1 为什么需要两个刮削器](#21-为什么需要两个刮削器)
-    - [2.1.1 原因1 Kodi 和 Plex 都有自带刮削器，为什么还要用别的？](#211-原因1-kodi-和-plex-都有自带刮削器为什么还要用别的)
-    - [2.1.2 原因2 为什么需要 TMM 和 MediaElch 两个刮削器？](#212-原因2-为什么需要-tmm-和-mediaelch-两个刮削器)
+    - [2.1.1 问题1 Kodi 和 Plex 都有自带刮削器，为什么还要用别的？](#211-问题1-kodi-和-plex-都有自带刮削器为什么还要用别的)
+    - [2.1.2 问题2 用一个刮削器，不够吗？](#212-问题2-用一个刮削器，不够吗？)
   - [2.2 Kodi 和 Plex 的区别](#22-kodi-和-plex-的区别)
     - [2.2.1 Plex 的优缺点](#221-plex-的优缺点)
       - [2.2.1.1 Plex 优点](#2211-plex-优点)
@@ -378,7 +378,7 @@ audio和video参数表示该播放器对哪种媒体适用，适用就用"true"�
 
 - 修改Kodi的主题皮肤
 - 常用快捷键
-- [在 Kodi 里安装 Plex 插件](#3224-%E5%9C%A8-kodi-%E9%87%8C%E5%AE%89%E8%A3%85-plex-%E6%8F%92%E4%BB%B6 "在 Kodi 里安装 Plex 插件")
+- [在 Kodi 里安装 Plex 插件](#3224-在-kodi-里安装-plex-插件 "在 Kodi 里安装 Plex 插件")
 - 将手机设置成Kodi的遥控器
 - 将Kodi设置DLNA，其他智能设备的媒体可以推送过来播放
 - 设置IPTV源，看电视直播
@@ -533,7 +533,7 @@ Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇�
 
 #### 3.3.1 安装 [tinyMediaManager(TMM)](#13-刮削器-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-%E5%8E%9F%E5%9B%A02-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%9C%80%E8%A6%81-tmm-%E5%92%8C-mediaelch-%E4%B8%A4%E4%B8%AA刮削器 "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
+这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-问题2-用一个刮削器-用一个刮削器，不够吗？ "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
 
 tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装。但是在Linux上运行除了需要Java，还需要libmediainfo依赖库，这是 [tinyMediaManager官方安装说明文档](https://www.tinymediamanager.org/docs/installation "tinyMediaManager官方安装说明文档")。
 
@@ -673,9 +673,9 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 现本地化后可以将 Kodi 和 Plex 的刮削器直接设置在本地，免去它们再刮削不到的苦恼。
 
-- 修改 Kodi</br>回到 [3.1.2.2 Kodi媒体库资源的扫描](3.1.2.2 Kodi媒体库资源的扫描 "#3122-kodi%E5%AA%92%E4%BD%93%E5%BA%93%E8%B5%84%E6%BA%90%E7%9A%84%E6%89%AB%E6%8F%8F") 这里。</br>更改之前已经添加的媒体源，将信息提供者那里选择“Local information only”，选择确定，资料库会自动更新，直接读取 nfo 文件，因为不用访问网络速度会很快。
+- 修改 Kodi</br>回到 [3.1.2.2 Kodi媒体库资源的扫描](3.1.2.2 Kodi媒体库资源的扫描 "#3122-kodi媒体库资源的扫描") 这里。</br>更改之前已经添加的媒体源，将信息提供者那里选择“Local information only”，选择确定，资料库会自动更新，直接读取 nfo 文件，因为不用访问网络速度会很快。
 
-- 修改 Plex</br>回到 [3.2.2.3 Plex 加载本地 nfo 文件插件](#3223-plex-%E5%8A%A0%E8%BD%BD%E6%9C%AC%E5%9C%B0-nfo-%E6%96%87%E4%BB%B6%E6%8F%92%E4%BB%B6 "3.2.2.3 Plex 加载本地 nfo 文件插件") 这里查看如何配置。
+- 修改 Plex</br>回到 [3.2.2.3 Plex 加载本地 nfo 文件插件](#3223-plex-加载本地-nfo-文件插件 "3.2.2.3 Plex 加载本地 nfo 文件插件") 这里查看如何配置。
 
 ##### 3.3.2.6 破解 TMM 4.0.x
 
@@ -717,7 +717,7 @@ Linux系统可以直接用 [页面](https://mediaelch.github.io/mediaelch-doc/do
 
 #### 3.4.2 配置 [MediaElch](#14-刮削器-mediaelch "MediaElch说明")
 
-虽然 MediaElch 是开源软件，打开 MediaElch 会发现对中文支持还算可以，故使用起来与 [tinyMediaManager(TMM)配置](#3322-%E4%BF%AE%E6%94%B9%E5%BD%B1%E8%A7%86%E4%BF%A1%E6%81%AF%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BD%91%E7%AB%99-themoviedborg-%E7%9A%84%E6%9C%AC%E5%9C%B0-host "tinyMediaManager(TMM)配置") 类似，各项配置也是大同小异，稍作研究即可上手使用，故不再赘述。
+虽然 MediaElch 是开源软件，打开 MediaElch 会发现对中文支持还算可以，故使用起来与 [tinyMediaManager(TMM)配置](#3322-修改影视信息数据库网站-themoviedborg-的本地-host "tinyMediaManager(TMM)配置") 类似，各项配置也是大同小异，稍作研究即可上手使用，故不再赘述。
 
 ##### 3.4.2.x 待补充更多 MediaElch 配置
 
