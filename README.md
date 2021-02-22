@@ -306,6 +306,10 @@ audio和video参数表示该播放器对哪种媒体适用，适用就用"true"�
 <hidexbmc>false</hidexbmc>   #表示保留Kodi界面
 ```
 
+```xml
+    <playcountminimumtime>600</playcountminimumtime>  #表示最短观看时长来打上已看标签,按分钟计
+```
+
 当然如此操作也有一定的缺点
 
 - 无法记忆播放记录</br>用外置播放器使得Kodi无法记录关闭视频时的位置，这点好在我将MPV设置了记忆记录
@@ -405,11 +409,11 @@ Plex 默认从网上刮削电影信息，但同样因各种原因必然失败，
 
 这里也有网友整理好的：[BD云链接](https://pan.baidu.com/s/1GT9yC18LCOxUBlmI3IpkfA "BD云链接") 和提取码：x9xy，可以直接下载。
 
-下载后分别解压出两个文件夹，解压出的文件夹名带有_-master_字样，故分别将其重命名为_XBMCnfoMoviesImporter.bundle_和_XBMCnfoTVImporter.bundle_。
+下载后分别解压出两个文件夹，解压出的文件夹名带有**-master*字样，故分别将其重命名为*XBMCnfoMoviesImporter.bundle*和*XBMCnfoTVImporter.bundle*。
 
 >可以分别进入这两个目录，查看里面是分别否存在_Contents_目录，若存在则文件结构正确。
 
-然后将_XBMCnfoMoviesImporter.bundle_和_XBMCnfoTVImporter.bundle_两个目录将放到 PLEX 插件目录下
+然后将*XBMCnfoMoviesImporter.bundle*和*XBMCnfoTVImporter.bundle*两个目录将放到 PLEX 插件目录下
 
 ```shell
     /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Plug-ins
@@ -458,7 +462,7 @@ Plex客户端收费……
 
 Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇文章")有介绍，这里不再赘述。
 
-##### 3.2.2.4待补充更多 Plex 配置
+##### 3.2.2.4 待补充更多 Plex 配置
 
 Plex 更多设置后续补充
 
