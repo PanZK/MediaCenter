@@ -555,9 +555,9 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 ![TMM添加媒体库3](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib3.png#pic_center)
 
->图中勾选的为我认为需要的内容
+>图中勾选的为我认为需要的内容。</br>对于Kodi而言，海报墙展示界面仅需要海报（post）、同人画（fanart）,剧集的话还要横幅图（banner）、季的海报（post）、集的缩略图（thumb），再加个nfo文件就足够了。</br>光碟封面、LOGO、缩图等等一些，是提供给jellyfin、emby、Plex使用
 
-左侧找到 *电影 -> 刮削器 -> nfo设置* 将 nfo 格式改为 Kodi ，勾选 NFO 文件名为 *<电影文件名>nfo* ，然后将NFO语言同样改为中文；
+左侧找到 *电影 -> 刮削器 -> nfo设置* 将 nfo 格式改为 Kodi ； *movie.nfo* 在Kodi下是不识别的，故勾选 NFO 文件名为 *<电影文件名>.nfo* ，然后将NFO语言同样改为中文；
 
 ![TMM添加媒体库4](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib4.png#pic_center)
 
@@ -571,9 +571,65 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 检索完毕后选中要刮削的电影，点击 *搜索&刮削* 按钮，TMM就开始刮削工作自动匹配，如果你的视频文件命名没有问题的话，就只需要静静的等候刮削完毕。
 
+>有匹配不到的会弹窗提醒，艘作输入电影名称（英文中文都可以，推荐英文名）或者IMDb ID（豆瓣可查，例如：tt0061809），点搜索
+
 ![TMM添加媒体库7](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Lib7.png#pic_center)
 
-##### 3.3.2.x 破解 TMM 4.0.x
+设置剧集也是同样的道理，类似设置不做赘述。
+
+>**提一下剧集目录设置问题**</br>规则和电影类似，但**注意**要一部剧集建一个文件夹，再在每一集电视剧的文件名后面加上S01E02（第一季第二集），如果一个电视剧有多个季，那么每个季再建一个文件，里面单独存放剧集，如：
+>
+>```shell
+>    剧集/剧集名/S01/剧集名.S01E01.mp4
+>    剧集/剧集名/S01/剧集名.S01E02.mp4
+>
+>    剧集/剧集名/S02/剧集名.S02E01.mp4
+>    剧集/剧集名/S02/剧集名.S02E02.mp4
+>
+>    #等等
+>```
+
+##### 3.3.2.4 用 TMMT 给媒体文件夹和文件批量重命名
+
+如果你从各种网站下载媒体视频，文件名字经常是五花八门的，还有各种网址及广告。tinyMediaManager可以帮你一键重命名，让资料库更整洁。
+
+在设置中找到如图设置界面，进行重命名设置。
+
+![TMM重命名1](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Rename1.png#pic_center)
+
+以下是图中重命名规则
+
+```shell
+    文件夹格式为"<中文标题>.<英文标题>-<版本>.<年份>."
+
+    文件夹格式为"<中文标题>.<英文标题>-<版本>.<年份>.<视频编码>.<音频编码>.<扩展名>"
+```
+
+特别篇的命名规则是，将季文件夹叫S00或者Specials，启用自动命名的话就用Specials。
+
+在Linux的路径中若包含空格实在太麻烦，遂将高级选项中关于空格的两项也设置好替换。
+
+点击上方的 *重命名&清理* 按钮，就可以批量重命名了。
+
+![TMM重命名2](https://github.com/PanZK/MyFiles/raw/master/MediaCenter/MediaCenter-TMM.Rename2.png#pic_center)
+
+##### 3.3.2.4 回到 Kodi 和 Plex 中修改刮削器设置
+
+因为之前没有把媒体信息文件本地化，故前面在基本都将 Kodi 和 Plex 的刮削器设置成了 [TMDb](https://www.themoviedb.org/ "TMDb官网") 。
+
+现本地化后可以将 Kodi 和 Plex 的刮削器直接设置在本地，免去它们再刮削不到的苦恼。
+
+- 修改 Kodi</br>回到3.1.2.2这里，将信息提供者那里选择“Local information only”，更新资料库会直接读取 nfo 文件，因为不用刮削了速度会很快。
+
+- 修改 Plex</br>点击回到3.2.2.3这里查看。
+
+##### 3.3.2.5 破解 TMM 4.0.x
+
+前面说过 TMM 4.0.x版本后解锁全部功能需要收费，一番寻找我也找到了大神的 [破解版本](https://www.xanderye.cn/archives/java/169/ "https://www.xanderye.cn/archives/java/169/")，但遗憾的是目前只有Windows破解版。
+
+把大神的Github链接挂在这里 [XanderYe/tmm-cracker: tmm(tinymediamanager)4.0.6破解](https://github.com/XanderYe/tmm-cracker "XanderYe/tmm-cracker: tmm(tinymediamanager)4.0.6破解")，有需要的可以自取。
+
+其他平台的怎么办呢，可以使用下面将要说的刮削器 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")。
 
 ##### 3.3.2.x 待补充更多 TMM 配置
 
