@@ -619,9 +619,9 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 现本地化后可以将 Kodi 和 Plex 的刮削器直接设置在本地，免去它们再刮削不到的苦恼。
 
-- 修改 Kodi</br>回到3.1.2.2这里，将信息提供者那里选择“Local information only”，更新资料库会直接读取 nfo 文件，因为不用刮削了速度会很快。
+- 修改 Kodi</br>回到 [3.1.2.2 Kodi媒体库资源的扫描](3.1.2.2 Kodi媒体库资源的扫描 "#3122-kodi%E5%AA%92%E4%BD%93%E5%BA%93%E8%B5%84%E6%BA%90%E7%9A%84%E6%89%AB%E6%8F%8F") 这里。</br>更改之前已经添加的媒体源，将信息提供者那里选择“Local information only”，选择确定，资料库会自动更新，直接读取 nfo 文件，因为不用访问网络速度会很快。
 
-- 修改 Plex</br>点击回到3.2.2.3这里查看。
+- 修改 Plex</br>回到 [3.2.2.3 Plex 加载本地 nfo 文件插件](#3223-plex-%E5%8A%A0%E8%BD%BD%E6%9C%AC%E5%9C%B0-nfo-%E6%96%87%E4%BB%B6%E6%8F%92%E4%BB%B6 "3.2.2.3 Plex 加载本地 nfo 文件插件") 这里查看如何配置。
 
 ##### 3.3.2.5 破解 TMM 4.0.x
 
@@ -631,7 +631,7 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 其他平台的怎么办呢，可以使用下面将要说的刮削器 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")。
 
-##### 3.3.2.x 待补充更多 TMM 配置
+##### 3.3.2.6 待补充更多 TMM 配置
 
 更多 TMM 配置后续补充...
 
@@ -645,11 +645,32 @@ tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装�
 
 #### 3.4.1 安装 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
-[MediaElch官网](https://www.kvibes.de/mediaelch/ "MediaElch官网")
+这是 [MediaElch官网](https://www.kvibes.de/mediaelch/ "MediaElch官网") ， [MediaElch Github主页](https://github.com/Komet/MediaElch "MediaElch Github主页") ，点击 [Mediaelch下载](https://mediaelch.github.io/mediaelch-doc/download.html "Mediaelch下载") 进入Mediaelch的下载讲解页面。
+
+Linux系统可以直接用 [页面](https://mediaelch.github.io/mediaelch-doc/download.html#ubuntu "Mediaelch-Ubuntu安装") 中的命令安装。
+
+```shell
+    # Add the repository to your system
+    sudo add-apt-repository ppa:mediaelch/mediaelch-stable
+    sudo apt-get update
+    # Install MediaElch
+    sudo apt-get install mediaelch
+    # Start MediaElch
+    MediaElch
+```
+
+其他系统可参照文档进行下载安装。
 
 #### 3.4.2 配置 [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明")
 
-```shell
-```
+虽然 MediaElch 是开源软件，打开 MediaElch 会发现对中文支持还算可以，故使用起来与 [tinyMediaManager(TMM)配置](#3322-%E4%BF%AE%E6%94%B9%E5%BD%B1%E8%A7%86%E4%BF%A1%E6%81%AF%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BD%91%E7%AB%99-themoviedborg-%E7%9A%84%E6%9C%AC%E5%9C%B0-host "tinyMediaManager(TMM)配置") 类似，各项配置也是大同小异，稍作研究即可上手使用，故不再赘述。
 
-[]( "")
+#### 3.4.2.x 待补充更多 MediaElch 配置
+
+更多 MediaElch 配置后续补充...
+
+## 4 总结
+
+通过以上一系列复杂操作，完成了用 [Kodi](#11-%E6%92%AD%E6%94%BE%E5%99%A8-kodi "Kodi说明") + [Plex](#12-%E5%AA%92%E4%BD%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-plex-media-serverplex "Plex说明") + [tinyMediaManager(TMM)](#13-%E5%88%AE%E5%89%8A%E5%99%A8-tinymediamanagertmm "tinyMediaManager(TMM)说明")  + [MediaElch](#14-%E5%88%AE%E5%89%8A%E5%99%A8-mediaelch "MediaElch说明") 组成家庭媒体系统。
+
+有些地方稍显复杂，有些地方还不尽人意，待后续有时间继续改进。
