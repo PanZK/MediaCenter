@@ -16,8 +16,8 @@
   - [1.4 刮削器 MediaElch](#14-刮削器-mediaelch)
 - [2 软件选用说明](#2-软件选用说明)
   - [2.1 为什么需要两个刮削器](#21-为什么需要两个刮削器)
-    - [2.1.1 问题1 Kodi 和 Plex 都有自带刮削器，为什么还要用别的？](#211-问题1-kodi-和-plex-都有自带刮削器为什么还要用别的)
-    - [2.1.2 问题2 用一个刮削器，不够吗？](#212-问题2-用一个刮削器，不够吗？)
+    - [2.1.1 问题1 Kodi 和 Plex 都有自带刮削器，为什么还要用别的](#211-问题1-kodi-和-plex-都有自带刮削器为什么还要用别的？)
+    - [2.1.2 问题2 用一个刮削器，不够吗](#212-问题2-用一个刮削器，不够吗？)
   - [2.2 Kodi 和 Plex 的区别](#22-kodi-和-plex-的区别)
     - [2.2.1 Plex 的优缺点](#221-plex-的优缺点)
       - [2.2.1.1 Plex 优点](#2211-plex-优点)
@@ -533,7 +533,7 @@ Kodi 中文网[这篇文章](http://www.kodiplayer.cn/plugins/2918.html "这篇�
 
 #### 3.3.1 安装 [tinyMediaManager(TMM)](#13-刮削器-tinymediamanagertmm "tinyMediaManager(TMM)说明")
 
-这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-问题2-用一个刮削器-用一个刮削器，不够吗？ "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
+这是[tinyMediaManager官网](https://www.tinymediamanager.org "tinyMediaManager官网")，建议下载version 3.x系列，version 4.x免费版只能管理50部，解锁全部内容如同 [上面](#212-问题2-用一个刮削器-用一个刮削器，不够吗 "需要购买许可证") 所说，需要购买许可证才能解锁(按年收费)。
 
 tinyMediaManager运行需要Java环境，tinyMediaManager会自动引导安装。但是在Linux上运行除了需要Java，还需要libmediainfo依赖库，这是 [tinyMediaManager官方安装说明文档](https://www.tinymediamanager.org/docs/installation "tinyMediaManager官方安装说明文档")。
 
